@@ -9,9 +9,9 @@
     <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
 
-<body th:style = "${pozadi}">
+<body th:style = "'background-image: url(' + ${pozadi} + ')'">
 
-<blockquote><span th:text="${citat}">1</span></blockquote>
+    <blockquote><span th:text="${citat}">1</span></blockquote>
 
 </body>
 </html>
